@@ -49,6 +49,7 @@ To come back here, click on the |:house:| icon at the top, beside my name.
    Professional Experience
    Projects
    Skills
+   CV
 
 .. toctree::
    :maxdepth: 2
