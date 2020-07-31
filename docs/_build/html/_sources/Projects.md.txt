@@ -1,24 +1,37 @@
 # Projects
 
 ## Financial News Analytics
-Developed a hybrid sentiment analyzer using Naïve Bayes classifier and recurrent neural network 
+###### Aug '18 – Apr '19
+Developed a hybrid sentiment analyzer using Naïve Bayes classifier and recurrent neural network.
+The intuition behind using a hybrid sentiment analyzer is to overcome the sentiment from opinionated words.
+These words may not be useful in determining the overall sentiment of a sentence.
+This classic approach uses chi-square distribution to decide which word goes to the NB classifier or the RNN.
 
-Crawled news data from different sources as training data
+Incorporated technical analysis into the prediction model to penalize fluctuations. 
+Two methods were included, Exponential Moving Average (EMA) and Candlestick Pattern Recognition (CPR).
+CPR is a treshold-based feature where a function decides what candlestick pattern is shown in a given day.
+EMA is used to normalize the sentiment analyzer by penalizing the prediction made by the sentiment analyzer.
+This two techniques minimizes the Root-mean-squared error on the prediction.
 
-Incorporated technical analysis into the prediction model to penalize fluctuations
+Crawled news data from different sources as training data for the RNN.
+Using the text as a feature, I then compare it to 4 different labels.
+The labels are the sentiment on that same day (i.e. close on day _d_ > open on day _d_ = positive) or the next day (i.e. close on day _d + 1_ > open on day _d_ = positive), up until the next 3 days.
+The experiment concluded that using the next 2 days was the better label for the features.
 
-Nominated for “Best Final Year Project” award
+Nominated for “Best Final Year Project” award. However, I could not attend the competition because I had to fly to Singapore on the same day.
 
-Encouraged by department to compete in "HKEIA Innovation & Technology Project Competition Award 2019"
+Encouraged by department to compete in "HKEIA Innovation & Technology Project Competition Award 2019".
 
 ## Avocado Price Analysis
+###### Aug '18 – Nov '18
 Link: [https://github.com/jackyangara/avocado](https://github.com/jackyangara/avocado)
 
-Discovered strong correlations between data using multivariate data analysis.
+Discovered strong correlations between data using multivariate data analysis. Avocado sales being very high in certain areas near the coasts while being very low in the center.
 
-Offered a “Research Assistant” role on the topic of natural language processing.
+Applied and offered a “Research Assistant” role on the topic of natural language processing. 
 
 ## Coauthorship Network Analysis
+###### Aug '18 – Nov '18
 Link: [https://github.com/jackyangara/coauthorship](https://github.com/jackyangara/coauthorship) 
 
-Learned relationships between different nodes and how to assess different relationships in a network.
+Learned relationships between different nodes and how to assess different relationships in a network. Used some mathematical functions to express the centeredness, relationships and degrees of seperations of each nodes in the graph.

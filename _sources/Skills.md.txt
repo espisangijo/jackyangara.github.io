@@ -24,10 +24,11 @@
 - SciPy
 ## Technology
 - MongoDB
+- Docker
 - MySQL
 - Nginx
 - Gunicorn
--  JMeter
+- JMeter
 - Git
 - Shell Script
 ## Machine Learning
@@ -41,7 +42,6 @@
 - Naïve Bayes
 - k-Means
 - DBSCAN
-
 ## Languages
 - Bahasa Indonesia
 - English
